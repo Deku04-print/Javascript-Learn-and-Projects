@@ -1,26 +1,16 @@
 // document.getElementById("count").innerText = 5
 
-let count = 0
+// let count = 5
+// count = count + 1
+// console.log(count)
 
-console.log(count)
-
-
-// 1. Create a variable, myAge, and set its value to your age
-let myAge = 35
-
-// 2. Log the myAge variable to the console
-console.log(myAge)
+// intialize the count as 0
+// listen for clicks on the increment button
+// increment the count variable when the button is clicked
+// change the count-el in the HTML to reflect the new count
 
 
-// 1. Create two variables, myAge and humanDogRatio
-// 2. Multiply the two together and store the result in myDogAge 
-// 3. Log myDogAge to the console
+function increment(){
+    console.log("Button clicked")
+}
 
-
-let myAge=21
-
-let humanDogRatio=7
-
-let myDogAge=myAge*humanDogRatio
-
-console.log(myDogAge)

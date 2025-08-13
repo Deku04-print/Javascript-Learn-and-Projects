@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bb.css" />
+    <title>BasketBall Score Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <h3>HOME</h3>
+        <h2 class="score-h">0</h2>
+        <div>
+          <button onclick="plusOne()">+1</button>
+          <button onclick="plusTwo()">+2</button>
+          <button onclick="plusThree()">+3</button>
+        </div>
+        <div>
+          <button onclick="penaltyHome()">-1</button>
+        </div>
+      </div>
+
+      <div class="column">
+        <h3>GUEST</h3>
+        <h2 class="score-g">0</h2>
+        <div>
+          <button onclick="plusOneg()">+1</button>
+          <button onclick="plusTwog()">+2</button>
+          <button onclick="plusThreeg()">+3</button>
+        </div>
+        <div>
+          <button onclick="penaltyGuest()">-1</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- New game controls -->
+    <div style="margin-top: 30px;">
+      <button onclick="newGame()">New Game</button>
+      <button onclick="pauseResume()">Pause/Resume</button>
+    </div>
+
+    <script src="bb.js"></script>
+  </body>
+</html>

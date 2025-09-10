@@ -1,0 +1,28 @@
+body {
+    padding: 40px;
+    background: whitesmoke;
+    text-align: center;
+}
+
+#apple-shelf {
+    background: lightcoral;
+    border-radius: 10px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+#orange-shelf {
+    background: lightsalmon;
+    border-radius: 10px;
+    height: 30px;
+}
+
+button{
+    border:2px solid rgb(130, 94, 94) ;
+    background-color: rgba(111, 116, 24, 0.593);
+    height: 30px;
+    width: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family:monospace;
+}

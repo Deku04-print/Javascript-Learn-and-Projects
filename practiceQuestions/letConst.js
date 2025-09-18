@@ -1,7 +1,7 @@
 // SETTING THE STAGE
-let player = "Per"
-let opponent = "Nick"
-let game = "AmazingFighter"
+const player = "Per"
+const opponent = "Nick"
+const game = "AmazingFighter"
 let points = 0
 let hasWon = false
 
